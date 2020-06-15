@@ -19,3 +19,7 @@ def merge_the_tools(string, k):
     for word in list1:
         temp = remove_dup(word)
         print(temp)
+        
+if __name__ == '__main__':
+    string, k = raw_input(), int(raw_input())
+    merge_the_tools(string, k)
